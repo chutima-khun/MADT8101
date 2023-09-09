@@ -1,11 +1,13 @@
 # Customer Data Platform
-[![](https://img.shields.io/badge/-Concept-blue)](#) [![](https://img.shields.io/badge/-Presentation-blue)](#)
 
-## Content Overview 
-![CDP Overview](./CDP Overview.png)
+### Content Overview 
+![CDP Overview](https://github.com/chutima-khun/MADT8101/blob/main/Chapter%2001/Overview%20-%20CDP.png?raw=true)
 
-#### My design of customer data platform for a movie theatre (Cinema). The design include single customer view table and provide an example of its use case
-## Customer Data Platform Design 
+#### Customer Data Platform is the single source of information relate to customer information preparing for analysis/inspect individually or segmentation.
+#### The platform will help stakeholder to gain understand of their customer from analysis and improve their strategy for implementation plan
+
+
+## Class activity - Design CDP
 ![CDP Design](./CDP_Movie.png)
 ## Single Customer View Table
 ![SCV Design](./SCV_Movie.png)
