@@ -1,10 +1,20 @@
 # Customer Segmentation & Segment Movement Analysis
-[![](https://img.shields.io/badge/-K--Means-orange)](#) [![](https://img.shields.io/badge/-Classification-orange)](#) [![](https://img.shields.io/badge/-Python-green)](#) [![](https://img.shields.io/badge/-Google--Colab-green)](#)   
 
-# 0) Project Overview
+### Content Overview 
+![Clustering](https://github.com/chutima-khun/MADT8101/blob/main/Chapter%2004/Segmentation-Clustering.png)
+#### To help business more understanding about their own customer, segmentation is the good starting point to classify each customer type.
+#### When segmentation could be identify, it can help business know their characteristic and initiate action plan more suitable for each customer group.
+
+![Movement](https://github.com/chutima-khun/MADT8101/blob/main/Chapter%2004/Segmentation-Movement.png)
+
+#### Other than segmentation, when time pass by and customer change their behaviour, it can help business make analysis for the rational of change.
+
+## Class activity - HDI Segmentation
+
+### 0) Project Overview
 ![ProjectOverview](./img/ProjectOverview.PNG)
 
-# 1) Import Dataset
+### 1) Import Dataset
 HDI was started in 1986 by Mr. Peter Chia, who desired to provide a better life for his family. HDI emerged as a trailblazer in the development of the Network Marketing Business in Asia, specifically in Singapore, Malaysia, Indonesia, Hong Kong, and the Philippines. The company offers natural products from bee, they  have five main categories, namely supplements for adult & Kid, personal care, skincare, food and beverages.
 #### Provided Dataset
 1. data member : master data of downline and his/her sponsor
@@ -13,7 +23,7 @@ HDI was started in 1986 by Mr. Peter Chia, who desired to provide a better life 
 1. sponsor master : master data of sponsor and no. of downline per sponsor
 2. salesbyitem 2021 - 2022 : extract json product file to sales quantiy by item
 
-# 2) Create single customer view
+### 2) Create single customer view
 base on datasets above, we create the following data single customer view table:      
 
 ![SCV](./img/SCV.png)     
@@ -22,7 +32,7 @@ base on datasets above, we create the following data single customer view table:
   
 ![feature](./img/feature.PNG)
 
-# 3) Clustering
+### 3) Clustering
 **Notebooks:** [Clustering Model](./V2_1_HDI_Segmentation.ipynb)  
 **Google Colab:** [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jane-russ/MADT8101/blob/main/5.Segmentation/V2_1_HDI_Segmentation.ipynb)
 #### Features
@@ -40,7 +50,7 @@ With the cluster labels as classes to predict, train a Random Forest classifier.
 #### Cluster Interpretation
 ![before2](./img/before2.PNG)
 
-# 4) Classification
+### 4) Classification
 **Notebooks:** [Classification Model](./V2_2_HDI_Classification%20(1).ipynb)  
 **Google Colab:** [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jane-russ/MADT8101/blob/main/5.Segmentation/V2_2_HDI_Classification%20(1).ipynb)
 #### Model Evaluation
@@ -48,7 +58,7 @@ With the cluster labels as classes to predict, train a Random Forest classifier.
 #### Model Results
 ![after2](./img/after2.PNG)
 
-# 5) Segment Movement Analysis
+### 5) Segment Movement Analysis
 ![mvtanalysis](./img/segmentation_movement.png)
 
 ![BeforeAfter](./img/Segmentation_BeforeAfter_final.PNG)
@@ -60,7 +70,7 @@ Movement Analysis:
 - Contrastingly, Diamond' spending has declined by 42%.
 - The decrease in Gold level resulted in a 26% reduction in the number of Diamond, from 70 to 52 in 2022.
 
-# 6) Business Recommendation
+### 6) Business Recommendation
 ### Insights Recap 
 - Do Good: Cross-category promotion Product Portfolio curation &  to increase unique items and sales qty
 - Do Better: Membership retention (especially in gold and diamond tier) & Membership progress through tiers
