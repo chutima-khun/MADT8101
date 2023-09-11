@@ -1,23 +1,36 @@
 # Topic Modeling
-[![](https://img.shields.io/badge/-Topic--Modeling-orange)](#) [![](https://img.shields.io/badge/-NLP-orange)](#) [![](https://img.shields.io/badge/-Python-green)](#) [![](https://img.shields.io/badge/-Google--Colab-green)](#) 
 
-# 0) Project Overview
-This project aims to perform topic modeling on a Facebook post's comments using Natural Language Processing (NLP) techniques. By analyzing a sample of 15 comments from a selected post, the goal is to uncover underlying themes or topics within the comments, providing valuable insights into the discussions and interests of the users.
-![FBPost](./img/FBPost.png)     
+### Content Overview 
+![VOC](https://github.com/chutima-khun/MADT8101/blob/main/Chapter%2005/VOC.png)
 
-# 1) Topic Modeling
-**Notebooks:** [Topic Modeling](./TopicModeling.ipynb)  
-**Google Colab:** [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jane-russ/MADT8101/blob/main/6.TopicModeling/TopicModeling.ipynb)
+#### Voice of Customer is text analytic for analyse feedback or comment from customer. The result could help business visualize current feeling of customer and can help business focusing on action plan to target customer.
 
-# 2) Result analysis
-## Topic 1: Improve Customer Experience by improving wait time and queue management
-![Topic1](./img/Topic1.png) 
-## Topic 2: Noise (To be exclude from analysis)
-![Topic2](./img/Topic2.png) 
-## Topic 3: Menu Variety
-![Topic3](./img/Topic3.png) 
-## Topic 4: Maintain Ingredient quality
-![Topic4](./img/Topic4.png) 
+# Class activity - Text analysis
 
-# 3) Business Recommendation
-To maintain competitiveness and secure the top brand position, the company should prioritize enhancing the customer experience by addressing extended waiting times, diversifying the menu offerings, and ensuring consistent ingredient quality. Additionally, expanding the sample size for analysis will yield more robust topics that can provide valuable insights into the broader customer population's preferences and sentiments.
+### Task 
+Obtain sample comment from internet and perform topic modeling to analyze what was customer's thought from their comment.
+
+## Result of workshop
+[Workshop](https://colab.research.google.com/drive/1gbCMpYKj31-xwHfFvHhVxdjhFATyTICi)
+
+### Analytic steps
+1. Obtained sample feedback of Burger King
+2. Perform tokenization for text cleansing
+3. Create data dictionary
+4. Perform text modeling
+
+![BKResult](https://github.com/chutima-khun/MADT8101/blob/main/Chapter%2005/BurgerKing%20Result.png)
+
+### Result analysis
+1. Staff, Delivery - Positive
+2. Food & Service - Negative
+3. Service - Negative
+4. Staff, Shop - Positive
+5. Food - Negative+
+6. Delivery - Negative
+7. Other
+
+## Lesson Learn & What can improve
+  - Try to perform more text cleansing for more accurate result.
+  - Increase sample dataset to explore more topic.
+  - Add implementation plan for each topic.
