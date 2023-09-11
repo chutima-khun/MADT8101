@@ -32,6 +32,7 @@ ECommerce dataset included the list of customer and current status of Active or 
 ![FI](https://github.com/chutima-khun/MADT8101/blob/main/Chapter%2003/ImportantFeature.png)
 
 6. Inspect the confusion matrix.
+   
 ![Confusion](https://github.com/chutima-khun/MADT8101/blob/main/Chapter%2003/Confusion%20Matrix.png)
 
 ## Lesson Learn & What can improve
